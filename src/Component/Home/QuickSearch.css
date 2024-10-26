@@ -1,0 +1,12 @@
+.section-3-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.smartphones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
