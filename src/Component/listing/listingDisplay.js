@@ -8,7 +8,7 @@ const ListingDisplay = (props) => {
         return listData.map((item1) => {
           return (
             <div className="item1" key={item1._id}>
-              <div className="row">
+              <div className="row1">
                 <div className="col-md-5">
                   <img
                     src={item1.Image}
@@ -18,7 +18,7 @@ const ListingDisplay = (props) => {
                 </div>
                 <div className="col-md-7">
                   <div className="hotel_name">
-                    <Link to={`/details?proDetailsId=${item1.category_id}`}>
+                    <Link to={`/details?proDetailsId=${item1.product_id}`}>
                       {item1.product_name}
                     </Link>
                   </div>
